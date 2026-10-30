@@ -52,7 +52,7 @@ function Icon({ name, size = 20 }: { name: string; size?: number }) {
 }
 
 function Logo({ light = false }: { light?: boolean }) {
-  return <div className={`logo ${light ? 'logo-light' : ''}`}><img className="logo-mark" src="/logo.webp" alt="Hazel Cake" /><span><strong>HAZEL</strong><small>CAKE · NEPAL</small></span></div>
+  return <div className={`logo ${light ? 'logo-light' : ''}`}><img className="logo-mark" src={`${import.meta.env.BASE_URL}logo.webp`} alt="Hazel Cake" /><span><strong>HAZEL</strong><small>CAKE · NEPAL</small></span></div>
 }
 
 function Button({ children, outline = false, onClick, type = 'button' }: { children: React.ReactNode; outline?: boolean; onClick?: () => void; type?: 'button' | 'submit' }) {
