@@ -1,0 +1,10 @@
+{
+  "description": "Browse premium cakes, explore custom designs, and plan cake orders with Nepal-specific pricing and delivery details for celebrations of every kind.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
